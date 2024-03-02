@@ -132,3 +132,12 @@ body div.desc > p {
 .soc-list-footer{
   gap: 40px;
 }
+
+
+.psevdo::before{
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 50px;
+  background-color: red;
+}
